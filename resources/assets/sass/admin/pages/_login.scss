@@ -1,0 +1,51 @@
+#login-page{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  .copywrite{
+    padding: 2em 1em;
+    text-align: center;
+  }
+}
+
+#login-wrapper{
+  height: 100%;
+}
+
+#login-box{
+  max-width: 400px;
+  width: 100%;
+  .card{
+    border-color: transparent;
+    box-shadow: 0 0 40px rgba(0,0,0,.05);
+  }
+  .card-body{
+    padding: 1.5rem;
+  }
+}
+
+#login-logo{
+  padding: 2rem;
+  margin-top: -2rem;
+  text-align: center;
+  img{
+    max-height: 8rem;
+  }
+}
+
+.password-field{
+  position: relative;
+  .pass-show-btn,.pass-hide-btn{
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    padding: 0.25em 0.4em;
+    font-size: 0.9em;
+    text-decoration: none;
+  }
+}
+.forget-pass-link{
+  position: absolute;
+  right: -12px;
+  top: -5px;
+}

@@ -1,0 +1,113 @@
+@media print {
+  .container {
+    width: auto;
+  }
+  #stocklist{
+    td{
+      color:#000000;
+      font-size: 11px;
+    }
+  }
+  .page-stocklist{
+    .card{
+      border:none !important;
+    }
+    .card-body{
+      pading:0 !important;
+    }
+  }
+}
+
+#stock-filters{
+  background-color:#dee4e9;
+  padding: 1rem 0;
+  font-size:1rem;
+  .filter-label{
+    width: 120px;
+  }
+  .form-check-inline{
+    min-width: 80px;
+  }
+  .vehicle-link:hover{
+    cursor: pointer;
+  }
+}
+#filter-search{
+  position: relative;
+  .search-icon{
+    position: absolute;
+    top:9px;
+    right:22px;
+    color:gray;
+  }
+}
+.page-stocklist{
+  main{
+    display: none;
+  }
+}
+#stocklist{
+  thead th{
+    font-weight: normal;
+    font-size: 0.80rem;
+    height:48px;
+    vertical-align: middle;
+    text-align:center;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+  tbody tr{
+    &:hover{
+      cursor: pointer;
+    }
+  }
+  td{
+    vertical-align: middle;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+  .form-vehicle-image{
+    margin-right: 0;
+  }
+  img{
+    height: 75px;
+  }
+  .vehicle-icon{
+    background-size:56px 400px;
+  }
+  .icon-Truck{
+    background-position: center -5px;
+  }
+  .icon-Plant{
+    background-position: center -54px;
+  }
+
+  .icon-farm{
+    background-position: center -116px;
+  }
+
+  .icon-Car{
+    background-position: center -203px;
+  }
+
+  .icon-Van{
+    background-position: center -153px;
+  }
+
+  .settings .dropdown-item{
+    padding: 0.25rem 1rem;
+    cursor:pointer;
+  }
+  .settings .dropdown-item:hover{
+    color: $primary;
+  }
+  .settings .dropdown-item span{
+    padding-left:0.5rem;
+  }
+}
+
+.stock-stats span{
+  padding-left: 5px;
+}
+

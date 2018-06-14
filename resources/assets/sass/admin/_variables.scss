@@ -1,0 +1,37 @@
+$blue: #267ec8;
+$white:    #fff !default;
+$black:    #000 !default;
+$blue-900: #428bca;
+
+// Body
+$body-bg: #edf1f5;
+
+// Typography
+$font-family-sans-serif:
+  // Safari for OS X and iOS (San Francisco)
+        -apple-system,
+          // Chrome < 56 for OS X (San Francisco)
+        BlinkMacSystemFont,
+          // Windows
+        "Segoe UI",
+          // Android
+        "Roboto",
+          // Basic web fallback
+        "Helvetica Neue", Arial, sans-serif,
+          // Emoji fonts
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Cards
+$card-spacer-x: 1rem !default;
+
+// Navbar
+$navbar-dark-color: $white;
+
+// Pills
+$nav-pills-border-radius: 0;
+$nav-pills-link-active-bg: #eff3f6;
+$nav-pills-link-color: $blue-900;
+$nav-pills-link-active-color: $black;

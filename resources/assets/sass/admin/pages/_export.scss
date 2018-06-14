@@ -1,0 +1,25 @@
+#export-filters{
+  background-color:#dee4e9;
+  padding: 1rem 0;
+  font-size:1rem;
+  .filter-label{
+    width: 120px;
+    margin-bottom: 0;
+  }
+  .form-check-inline{
+    min-width: 100px;
+  }
+  .vehicle-link:hover{
+    cursor: pointer;
+  }
+  @include media-breakpoint-down(md) {
+    .filter-label{
+      width: 95px;
+    }
+    .form-check-inline{
+      min-width: 40px;
+    }
+  }
+}
+
+

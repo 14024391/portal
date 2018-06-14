@@ -1,0 +1,105 @@
+<?php
+
+use Illuminate\Database\Seeder;
+
+class BodyTypeTableSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        $body_types = array(
+            array('type_id' => '1','body_type' => 'Beavertail'),
+            array('type_id' => '1','body_type' => 'Box'),
+            array('type_id' => '1','body_type' => 'Bus'),
+            array('type_id' => '1','body_type' => 'Catering'),
+            array('type_id' => '1','body_type' => 'Chassis Cab'),
+            array('type_id' => '1','body_type' => 'Coach'),
+            array('type_id' => '1','body_type' => 'Concrete Mixer'),
+            array('type_id' => '1','body_type' => 'Crane Mounted'),
+            array('type_id' => '1','body_type' => 'Curtain Side'),
+            array('type_id' => '1','body_type' => 'Dropside'),
+            array('type_id' => '1','body_type' => 'Flatbed'),
+            array('type_id' => '1','body_type' => 'Gritter Truck'),
+            array('type_id' => '1','body_type' => 'Hook Loader'),
+            array('type_id' => '1','body_type' => 'Livestock'),
+            array('type_id' => '1','body_type' => 'Low Loader'),
+            array('type_id' => '1','body_type' => 'Municipal'),
+            array('type_id' => '1','body_type' => 'Pantechnicon'),
+            array('type_id' => '1','body_type' => 'Road Sweeper'),
+            array('type_id' => '1','body_type' => 'Scaffold Body'),
+            array('type_id' => '1','body_type' => 'Skeletal'),
+            array('type_id' => '1','body_type' => 'Skip Loader'),
+            array('type_id' => '1','body_type' => 'Specialist Vehicle'),
+            array('type_id' => '1','body_type' => 'Tanker'),
+            array('type_id' => '1','body_type' => 'Temperature Controlled'),
+            array('type_id' => '1','body_type' => 'Tipper'),
+            array('type_id' => '1','body_type' => 'Vehicle Transporter'),
+            array('type_id' => '2','body_type' => 'Beavertail'),
+            array('type_id' => '2','body_type' => 'Box'),
+            array('type_id' => '2','body_type' => 'Curtain Side'),
+            array('type_id' => '2','body_type' => 'Dropside'),
+            array('type_id' => '2','body_type' => 'Flatbed'),
+            array('type_id' => '2','body_type' => 'Hook Loader'),
+            array('type_id' => '2','body_type' => 'Livestock'),
+            array('type_id' => '2','body_type' => 'Skip Loader'),
+            array('type_id' => '2','body_type' => 'Specialist Vehicle'),
+            array('type_id' => '2','body_type' => 'Tanker'),
+            array('type_id' => '2','body_type' => 'Temperature Controlled'),
+            array('type_id' => '2','body_type' => 'Tipper'),
+            array('type_id' => '2','body_type' => 'Vehicle Transporter'),
+            array('type_id' => '4','body_type' => 'Combi Van'),
+            array('type_id' => '4','body_type' => 'Convertible'),
+            array('type_id' => '4','body_type' => 'Coupe'),
+            array('type_id' => '4','body_type' => 'Estate'),
+            array('type_id' => '4','body_type' => 'Hatchback'),
+            array('type_id' => '4','body_type' => 'Hearse'),
+            array('type_id' => '4','body_type' => 'LWB SUV'),
+            array('type_id' => '4','body_type' => 'Limousine'),
+            array('type_id' => '4','body_type' => 'MPV'),
+            array('type_id' => '4','body_type' => 'Pickup'),
+            array('type_id' => '4','body_type' => 'SUV'),
+            array('type_id' => '4','body_type' => 'Saloon'),
+            array('type_id' => '5','body_type' => 'Back to Back Cab'),
+            array('type_id' => '5','body_type' => 'Box Body'),
+            array('type_id' => '5','body_type' => 'Box Van'),
+            array('type_id' => '5','body_type' => 'Car Derived Van'),
+            array('type_id' => '5','body_type' => 'Chassis Cab'),
+            array('type_id' => '5','body_type' => 'Chassis Scuttle Van'),
+            array('type_id' => '5','body_type' => 'Combi Van'),
+            array('type_id' => '5','body_type' => 'Combi+'),
+            array('type_id' => '5','body_type' => 'Crew Van'),
+            array('type_id' => '5','body_type' => 'Curtain Side'),
+            array('type_id' => '5','body_type' => 'Curtainside'),
+            array('type_id' => '5','body_type' => 'Double Cab Van'),
+            array('type_id' => '5','body_type' => 'Double Cab-in-Van'),
+            array('type_id' => '5','body_type' => 'Dropside'),
+            array('type_id' => '5','body_type' => 'Dropside Crew'),
+            array('type_id' => '5','body_type' => 'Dropside Truck'),
+            array('type_id' => '5','body_type' => 'Floor Cab'),
+            array('type_id' => '5','body_type' => 'High Roof Van'),
+            array('type_id' => '5','body_type' => 'King Cab'),
+            array('type_id' => '5','body_type' => 'Low-Floor Luton'),
+            array('type_id' => '5','body_type' => 'Luton'),
+            array('type_id' => '5','body_type' => 'MPV'),
+            array('type_id' => '5','body_type' => 'Minibus'),
+            array('type_id' => '5','body_type' => 'Motorhome'),
+            array('type_id' => '5','body_type' => 'Panel Van'),
+            array('type_id' => '5','body_type' => 'Pickup'),
+            array('type_id' => '5','body_type' => 'SUV'),
+            array('type_id' => '5','body_type' => 'Short Platform'),
+            array('type_id' => '5','body_type' => 'Skip Loader'),
+            array('type_id' => '5','body_type' => 'Temperature Controlled'),
+            array('type_id' => '5','body_type' => 'Tipper'),
+            array('type_id' => '5','body_type' => 'Tipper Crew'),
+            array('type_id' => '5','body_type' => 'Tourer Elite'),
+            array('type_id' => '5','body_type' => 'Vehicle Transporter'),
+            array('type_id' => '5','body_type' => 'Window Van')
+        );
+
+        DB::table("body_types")->insert($body_types);
+    }
+}

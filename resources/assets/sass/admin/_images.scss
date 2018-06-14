@@ -1,0 +1,49 @@
+.upload-btn-wrapper{
+  label{
+    position: absolute;
+    right: 0;
+  }
+}
+#vehicle-photos{
+  visibility: hidden;
+}
+.vehicle-img{
+  display: inline-block;
+  width: 119px;
+  float: left;
+  height: 91px;
+  margin: 5px;
+  vertical-align: middle;
+  border: 2px solid #dee4e9;
+  background: #fff;
+  position: relative;
+  z-index: 400;
+  .set-default{
+    position: absolute;
+    top:0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+    visibility: hidden;
+  }
+  .delete-photo{
+    position: absolute;
+    right:5px;
+    top:0px;
+    cursor: pointer;
+    color:$danger;
+    visibility: hidden;
+  }
+  &:hover{
+    .set-default{
+      visibility: visible;
+    }
+    .delete-photo{
+      visibility: visible;
+    }
+  }
+}
+.vehicle-img.default{
+  border-color: #03A9F4;
+  border-width: 5px;
+}
